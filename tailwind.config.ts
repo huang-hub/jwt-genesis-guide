@@ -64,11 +64,16 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				jwt: {
-					blue: '#1E3A8A',
-					green: '#065F46',
-					light: '#E0F2FE',
-					dark: '#0F172A',
-					gray: '#64748B'
+					blue: '#0066CC',
+					green: '#00A67E',
+					light: '#E5F0FF',
+					dark: '#0A2540',
+					gray: '#64748B',
+					accent: '#FF8C42',
+					warning: '#F59E0B',
+					error: '#EF4444',
+					success: '#10B981',
+					background: '#F8FAFC'
 				}
 			},
 			borderRadius: {
@@ -109,7 +114,11 @@ export default {
 			},
 			fontFamily: {
 				mono: ['JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
-			}
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
