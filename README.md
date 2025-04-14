@@ -11,6 +11,7 @@ There are several ways of editing your application.
 **Use Lovable**
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/78c951ee-db3f-463c-ab17-b45fb1feb10e) and start prompting.
+Simply visit the [Jwtsecrets](https://jwtsecrets.com) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
